@@ -1,3 +1,5 @@
+// 15. Minimum Number of Platforms Required for a Railway/Bus Station
+// https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
 
 int findPlatform(int arr[], int dep[], int n)
 {
