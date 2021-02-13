@@ -1,0 +1,26 @@
+// 6. Sort an array of 0s, 1s and 2s 
+// https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+// https://github.com/Cipher-Schools/Competitive_Coding/edit/mohit-batch/Day01/DutchNationalFlag.cpp
+
+void sort012(int vec[], int n)
+{
+    int p0 = 0, p1 = 0, p2 = n - 1;
+    while (p1 <= p2)
+    {
+        switch (vec[p1])
+        {
+        case 0:
+            swap(vec[p0], vec[p1]);
+            p0++;
+            p1++;
+            break;
+        case 1:
+            p1++;
+            break;
+        case 2:
+            swap(vec[p2], vec[p1]);
+            p2--;
+            break;
+        }
+    }
+}
