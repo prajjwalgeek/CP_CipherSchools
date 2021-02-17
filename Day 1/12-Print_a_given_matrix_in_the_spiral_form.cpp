@@ -28,8 +28,8 @@ int main()
 					{ 5, 6, 7, 8 },
 					{ 9, 10, 11, 12 },
 					{ 13, 14, 15, 16 }};
-    int m = ar.size();
-    int n = ar[0].size();
+	int m = ar.size();
+	int n = ar[0].size();
 	spiralPrint(ar, 0, 0, m,n);
 	return 0;
 }
