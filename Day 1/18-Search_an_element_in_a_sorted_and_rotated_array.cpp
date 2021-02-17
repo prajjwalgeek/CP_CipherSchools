@@ -5,7 +5,6 @@ int search(vector<int> arr, int l, int h, int key)
 { 
     if (l > h) 
         return -1; 
-  
     int mid = (l + h) / 2; 
     if (arr[mid] == key) 
         return mid; 
