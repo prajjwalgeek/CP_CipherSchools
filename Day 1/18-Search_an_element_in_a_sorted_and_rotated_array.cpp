@@ -31,4 +31,5 @@ int main()
         cout << "Result : " << i << endl; 
     else
         cout << "Not found"; 
+    return 0;
 } 
